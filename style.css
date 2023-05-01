@@ -1,0 +1,38 @@
+.header{
+    display: grid;
+    grid-template-rows: 1fr 0.5fr;
+    background-color: #F1F6F9;
+    gap: 10px;
+    height: 40vh;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.head{
+    color: #394867;
+    font-size: 5.625rem;
+    margin-top: 50px;
+    font-family: "Sacramento", cursive;
+}
+.subheader{
+    color: #394867;
+    font-family: 'Noto Serif Display', serif;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 1.75rem;
+    margin-top: 0;
+}
+.profile-img {
+    height: 130px;
+    border-radius: 40%;
+  }
+.hellotext{
+    color: #088395;
+}
+p{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 1.2rem;
+}
